@@ -1,6 +1,6 @@
 {
   "name": "yuschema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Object schema definition for data validation and schema compatibility checks",
   "main": "build/index.js",
   "types": "build.index.d.ts",
