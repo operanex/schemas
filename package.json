@@ -1,0 +1,38 @@
+{
+  "name": "yuschema",
+  "version": "1.0.0",
+  "description": "Object schema definition for data validation and schema compatibility checks",
+  "main": "build/index.js",
+  "types": "build.index.d.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register -r ts-node/register/transpile-only src/tests/**/*.tests.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/operanex/schemas.git"
+  },
+  "keywords": [
+    "object",
+    "schema",
+    "typings",
+    "library"
+  ],
+  "author": "Yehudi Hollevoet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/operanex/schemas/issues"
+  },
+  "homepage": "https://github.com/operanex/schemas#readme",
+  "devDependencies": {
+    "@types/assert": "^1.5.4",
+    "@types/mocha": "^8.2.0",
+    "assert": "^2.0.0",
+    "mocha": "^8.3.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "isemail": "^3.2.0"
+  }
+}
