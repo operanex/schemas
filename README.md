@@ -138,7 +138,7 @@ const schema = new Schema<'node'>({         // We extend the allowed types
             properties : {
                 children : {
                     type : 'array',
-                    arrayType : 'node'      // the schema might reference itself
+                    arrayType : { type : 'node' }      // the schema might reference itself
                 }
             }
         }
